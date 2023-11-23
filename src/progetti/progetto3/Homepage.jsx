@@ -3,7 +3,7 @@ import { Navbar } from "./Navbar";
 
 
 
-export const Homepage = () => {
+const Homepage = () => {
   /* if(e.target.className==="noRotate"){
         e.target.className = "buttonRotate"
     }else if(e.target.className=== "buttonRotate"){
@@ -64,3 +64,4 @@ export const Homepage = () => {
     </div>
   );
 };
+export default Homepage
