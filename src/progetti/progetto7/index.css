@@ -1,0 +1,95 @@
+.container1xyz {
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.container1xyz button {
+  color: white;
+  font-size: 3rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid white;
+  border-radius: 1rem;
+}
+.container1xyz button:hover {
+  color: rgba(87, 84, 236, 0.7);
+  background-color: white;
+  border-color: rgba(87, 84, 236, 0.7);
+}
+
+.container2xyz {
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.container2xyz button {
+  color: white;
+  font-size: 3rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid white;
+  border-radius: 1rem;
+}
+.container2xyz button:hover {
+  color: rgba(0, 0, 0, 0.479);
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.479);
+}
+
+.rightxyz {
+  background: url(./assets/xbox.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s;
+}
+
+.rightxyz::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.479);
+  transition: all 1s;
+}
+
+.leftxyz::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  background-color: rgba(87, 84, 236, 0.7);
+  transition: all 1s;
+}
+
+.leftxyz {
+  background: url(./assets/ps.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s;
+}
+
+.unhover {
+  width: 70%;
+}
+.unhover::before {
+  width: 70%;
+}
+
+.trenta {
+  width: 30%;
+}
+.trenta::before {
+  width: 30%;
+}
+
+.init {
+  width: 50%;
+}
+.init::before {
+  width: 50%;
+}/*# sourceMappingURL=index.css.map */

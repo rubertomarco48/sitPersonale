@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=DotGothic16&family=Pixelify+Sans:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    overflow-x:hidden ;    
+}
+#root{
+    height: 172vh;
+}
+
+#menuBottone{
+    position: relative;
+    top: 5.5rem;
+    /* right: 1.5rem; */
+    overflow-y: hidden;
+}
+.menuSfera{
+    top:-4.5rem;
+    left: -4.5rem;
+}
+.ombra{
+    text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+}
+
+.trans{
+    transition: all 0.5s;
+}
+
+.sfondoLogo{
+  
+background: rgba(0, 0, 0, 1.0);
+background: radial-gradient(at center, rgba(0, 0, 0, 1.0), rgba(1, 1, 1, 0));
+}
+.sfondo{
+    background-image: url("./src/assets/sfondo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.menuContainer{
+    position: absolute;
+    top: 0;
+    left:-15rem;
+}
+.showMenu{
+    transform:rotate(-15deg);
+    left: -7rem;
+    
+}
+#menu{
+    
+    height: 120%;
+    transition: all 1s;
+    border-right: 5px solid;
+    border-image: linear-gradient(45deg, rgba(255, 255, 255, 0), rgb(255, 255, 255)) 0.6;
+    background: rgb(0,0,0);
+    background: linear-gradient(42deg, rgba(0,0,0,0) 0%, rgba(0,83,28,1) 52%);
+}
+
+.close{
+    right: 2rem;
+}
+.open{
+    right:1.3rem
+}
+
+#voci{
+    font-family: 'Pixelify Sans', sans-serif;
+    transition: all 1s;
+    cursor: pointer;
+    &:hover{
+        color:yellow;
+    }
+}
+#container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 30;
+    
+    
+}
+.pres{
+    font-family: 'Pixelify Sans', sans-serif;
+    
+    height:fit-content;
+}
+.gradTesto{
+  background-color: #000;
+  border-radius: 2rem;
+  border: 3px solid green;
+}
+.video{
+    top:0;
+}
+.zoom{
+    transition: all 0.5s;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+#progetto2{
+    background-color: #ffffff;
+}
+.Nooverflow{
+    overflow: hidden;
+}
+.suOggetto{
+    transition: all 0.5s;
+}

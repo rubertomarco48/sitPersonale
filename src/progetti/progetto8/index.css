@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=DotGothic16&family=Pixelify+Sans:wght@400;600&display=swap");
+#formxyz {
+  transition: all 0.5s;
+}
+#formxyz h1, #formxyz .bottone {
+  font-family: "Dancing Script", cursive;
+  font-family: "DotGothic16", sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
+}
+#formxyz .bordoSotto {
+  border-bottom: 2px solid white;
+  color: white;
+}
+#formxyz input:focus {
+  outline: none;
+}
+#formxyz input::-moz-placeholder {
+  color: white;
+}
+#formxyz input::placeholder {
+  color: white;
+}
+#formxyz input {
+  margin-top: 2rem;
+}
+#formxyz .label1 {
+  position: absolute;
+  top: 100px;
+  color: white;
+  width: 80%;
+  text-align: left;
+  padding: 1rem 0;
+}
+#formxyz .label2 {
+  position: absolute;
+  top: 180px;
+  color: white;
+  width: 80%;
+  text-align: left;
+  padding: 1rem 0;
+}
+#formxyz label, #formxyz input {
+  transition: all 0.5s;
+  animation: ease-in-out;
+}
+#formxyz form {
+  position: relative;
+}/*# sourceMappingURL=index.css.map */

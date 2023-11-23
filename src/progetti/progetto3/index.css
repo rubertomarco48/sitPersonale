@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=DotGothic16&display=swap");
+/* *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+#HomepageProgetto3 {
+  position: relative;
+  z-index: 100;
+}
+#HomepageProgetto3 h1 {
+  font-size: 2em;
+  margin: 16px 0;
+}
+#HomepageProgetto3 small {
+  color: #555;
+  font-style: italic;
+  margin: 16px 0;
+}
+#HomepageProgetto3 p {
+  color: #333;
+  line-height: 1.5;
+  margin: 16px 0;
+}
+
+#HomepageProgetto3 #menup {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 30%;
+  left: 60%;
+  z-index: 20;
+  fill: #fafafa;
+}
+#HomepageProgetto3 #close {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -10%;
+  left: 10%;
+  z-index: 20;
+  fill: #fafafa;
+}
+#HomepageProgetto3 .cane {
+  max-width: 100%;
+  border-radius: 1rem;
+  margin: 16px 0;
+  position: absolute;
+  z-index: 15;
+}
+#HomepageProgetto3 #content {
+  background-color: #fafafa;
+  transform-origin: top left;
+  transition: all linear 0.5s;
+  width: 100vw;
+  z-index: 50;
+  min-height: 100vh;
+  padding: 50px;
+  position: relative;
+}
+#HomepageProgetto3 .noRotate {
+  transform: rotate(0deg);
+  transition: all linear 0.5s;
+  transform-origin: left top;
+}
+#HomepageProgetto3 .rotate {
+  position: relative;
+  transform: rotate(-20deg);
+  transition: all linear 0.5s;
+  transform-origin: left top;
+}
+
+#HomepageProgetto3 button {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: yellow;
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  z-index: 50;
+}
+#HomepageProgetto3 .buttonRotate {
+  rotate: -100deg;
+}
+
+#van {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: red;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 100px;
+  height: 50%;
+  transition: all linear 0.5s;
+}
+#van #uno, #van #due, #van #tre {
+  font-family: "Dancing Script", cursive;
+  z-index: 0;
+}
+#van #uno:hover, #van #due:hover, #van #tre:hover {
+  color: white;
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform: scale(1.5);
+}/*# sourceMappingURL=index.css.map */

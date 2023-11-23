@@ -1,0 +1,24 @@
+.hide1234 {
+  overflow: hidden;
+}
+
+#bottonexyz {
+  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10%;
+  background-color: white;
+}
+#bottonexyz h2 {
+  font-size: 2rem;
+  color: red;
+}
+#bottonexyz:hover {
+  transform: scale(1.1);
+  background-color: blue;
+}
+#bottonexyz:hover h2 {
+  color: white;
+}/*# sourceMappingURL=index.css.map */

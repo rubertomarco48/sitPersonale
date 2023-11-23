@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=DotGothic16&family=Pixelify+Sans:wght@400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#root {
+  height: 172vh;
+}
+
+#menuBottone {
+  position: relative;
+  top: 5.5rem;
+  /* right: 1.5rem; */
+  overflow-y: hidden;
+}
+
+.menuSfera {
+  top: -4.5rem;
+  left: -4.5rem;
+}
+
+.ombra {
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+}
+
+.trans {
+  transition: all 0.5s;
+}
+
+.sfondoLogo {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(at center, rgb(0, 0, 0), rgba(1, 1, 1, 0));
+}
+
+.sfondo {
+  background-image: url("./src/assets/sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menuContainer {
+  position: absolute;
+  top: 0;
+  left: -15rem;
+}
+
+.showMenu {
+  transform: rotate(-15deg);
+  left: -7rem;
+}
+
+#menu {
+  height: 120%;
+  transition: all 1s;
+  border-right: 5px solid;
+  -o-border-image: linear-gradient(45deg, rgba(255, 255, 255, 0), rgb(255, 255, 255)) 0.6;
+     border-image: linear-gradient(45deg, rgba(255, 255, 255, 0), rgb(255, 255, 255)) 0.6;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(42deg, rgba(0, 0, 0, 0) 0%, rgb(0, 83, 28) 52%);
+}
+
+.close {
+  right: 2rem;
+}
+
+.open {
+  right: 1.3rem;
+}
+
+#voci {
+  font-family: "Pixelify Sans", sans-serif;
+  transition: all 1s;
+  cursor: pointer;
+}
+#voci:hover {
+  color: yellow;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 30;
+}
+
+.pres {
+  font-family: "Pixelify Sans", sans-serif;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.gradTesto {
+  background-color: #000;
+  border-radius: 2rem;
+  border: 3px solid green;
+}
+
+.video {
+  top: 0;
+}
+
+.zoom {
+  transition: all 0.5s;
+}
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+#progetto2 {
+  background-color: #ffffff;
+}/*# sourceMappingURL=index.css.map */
