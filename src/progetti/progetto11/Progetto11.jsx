@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./index.css"
+import "../../indexProgetto11.css"
 function Progetto11() {
   const [data, setData] = useState();
   const handleChange = (e) => {

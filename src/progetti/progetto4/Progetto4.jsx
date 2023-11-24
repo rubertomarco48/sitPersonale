@@ -2,7 +2,7 @@ import { Search } from "./Search"
 
 
 
-import './index.css'
+import '../../indexProgetto4.css'
 function Progetto4() {
 
   return (

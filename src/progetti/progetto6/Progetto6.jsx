@@ -1,6 +1,6 @@
 import { Div } from "./Div"
 import { Titolo } from "./Titolo"
-import './index.css'
+import '../../indexProgetto6.css'
 function Progetto6() {
 const boxes = document.querySelectorAll('#boxyz')
 

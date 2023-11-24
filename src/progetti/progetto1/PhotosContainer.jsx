@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Photo } from "./Photo";
-import { Link } from "react-router-dom";
-import "./index.css"
+
 export function PhotoContainer() {
   const array = [
     "w-1/6 h-full cursor-pointer flex items-center ",
@@ -14,11 +13,11 @@ export function PhotoContainer() {
   const id = [0, 1, 2, 3, 4];
   const [classi, setClassi] = useState(array);
   const src = [
-    "./src/progetti/progetto1/assets/image1.jpg",
-    "./src/progetti/progetto1/assets/image2.png",
-    "./src/progetti/progetto1/assets/image3.jpg",
-    "./src/progetti/progetto1/assets/image4.jpg",
-    "./src/progetti/progetto1/assets/image5.jpg",
+    "./src/assets/image1.jpg",
+    "./src/assets/image2.png",
+    "./src/assets/image3.jpg",
+    "./src/assets/image4.jpg",
+    "./src/assets/image5.jpg",
   ];
   const click = (e) => {
     setClassi(array);

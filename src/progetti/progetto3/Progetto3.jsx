@@ -1,7 +1,7 @@
 
 
 import Homepage from "./Homepage"
-import './index.css'
+import '../../indexProgetto3.css'
 
 function Progetto3() {
 

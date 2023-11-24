@@ -1,6 +1,6 @@
 import { Left } from "./Left"
 import { Right } from "./Right"
-import './index.css'
+import '../../indexProgetto7.css'
 
 function Progetto7() {
   return (

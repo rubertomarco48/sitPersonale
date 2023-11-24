@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import "./index.css"
+import "../../indexProgetto10.css"
 function Progetto10() {
   const[refresh,setRefresh]=useState(0)
   const [data,setData]=useState();

@@ -112,4 +112,12 @@
 
 #progetto2 {
   background-color: #ffffff;
+}
+
+.Nooverflow {
+  overflow: hidden;
+}
+
+.suOggetto {
+  transition: all 0.5s;
 }/*# sourceMappingURL=index.css.map */

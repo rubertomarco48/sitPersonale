@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Step } from "./Step"
-import './index.css'
+import '../../indexProgetto2.css'
 function Progetto2() {
 const [dis1,setDis1]=useState("bottoneDisabilitato")
 const [dis2,setDis2]=useState("bottoni")

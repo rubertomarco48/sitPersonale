@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import './index.css'
+import '../../indexProgetto5.css'
 const Sfondo = () => {
   const [counter, setCounter] = useState(0);
 
@@ -24,7 +24,7 @@ const Sfondo = () => {
         <h1>{counter}%</h1>
       </div>
       
-      <img src="./src/progetti/progetto5/assets/sfondo.jpg" className="immaginexyz" style={{filter:`blur(${100 - counter}px)`}} alt="" />
+      <img src="./src/assets/sfondoProgetto5.jpg" className="immaginexyz" style={{filter:`blur(${100 - counter}px)`}} alt="" />
     </div>
   );
 };
