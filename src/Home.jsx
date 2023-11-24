@@ -2,7 +2,7 @@ function Home() {
     return (
         <div  className="w-2/3 flex flex-col h-full gap-8 p-20 gradTesto">
         <p className="text-center w-full pres text-white text-xl z-50">
-            Sono un ra che ha coltivato il sogno di trasformare la sua passione per l'informatica in una carriera concreta, e finalmente questo sogno è diventato realtà.</p>
+            Sono un ragazzo che ha coltivato il sogno di trasformare la sua passione per l'informatica in una carriera concreta, e finalmente questo sogno è diventato realtà.</p>
         <p className="text-center w-full pres text-white text-xl z-50">Mi definisco un Full-Stack Developer intraprendente, ambizioso e incredibilmente orientato alla collaborazione.</p>
         <p className="text-center w-full pres text-white text-xl z-50">Dopo aver trascorso diversi anni in varie sfere professionali, ho preso la coraggiosa decisione di rivoluzionare la mia vita seguendo la passione che mi ha accompagnato fin dai tempi della scuola: la programmazione e lo sviluppo web. I miei anni di esperienza in lavori precedenti si sono rivelati estremamente formativi, dotandomi di una straordinaria abilità nel lavorare in team, nel fornire e ricevere aiuto in modo reciproco e nell'affrontare problemi complessi con soluzioni innovative. </p>
         <p className="text-center w-full pres text-white text-xl z-50">Queste competenze si sono dimostrate particolarmente utili nel mio attuale ruolo.</p>

@@ -9,7 +9,7 @@ window.addEventListener('scroll', checkBoxes)
 checkBoxes()
 
 function checkBoxes() {
-  const triggerBottom = window.innerHeight / 5 * 2
+  const triggerBottom = window.innerHeight / 5 * 4
     console.log("ok")
     boxes.forEach(box => {
         const boxTop = box.getBoundingClientRect().top
