@@ -47,7 +47,7 @@ const Homepage = () => {
           in eligendi quam nisi nemo!
         </p>
         <h2><strong>My Dog</strong></h2>
-        <img src="./src/assets/image.avif" className="cane" alt="" />
+        <img src="/image.avif" className="cane" alt="" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
           voluptatibus? Provident quidem doloribus dolore delectus omnis
@@ -57,8 +57,8 @@ const Homepage = () => {
         
       </div>
       <button className={stileBottone} onClick={handleRotate}>
-        <img src="./src/assets/menu.svg" id="menup" alt="" />
-        <img src="./src/assets/close.svg" id="close"/>
+        <img src="/menu.svg" id="menup" alt="" />
+        <img src="/close.svg" id="close"/>
       </button>
       <Navbar/>
     </div>
