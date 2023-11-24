@@ -32,7 +32,7 @@ function Layout() {
     <div className="flex flex-col justify-center w-screen">
       <img
         className=" z-0 absolute w-screen video"
-        src="./src/assets/videoSfondo.jpg"
+        src="/videoSfondo.jpg"
       />
       <picture className="flex z-30 justify-center sfondoLogo items-center w-full h-48 m-4 rounded-2xl">
       <Link to="/"><img src="/logo.gif" className="h-28  w-48" alt="bho" /></Link>
