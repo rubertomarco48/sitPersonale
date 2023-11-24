@@ -43,7 +43,7 @@
 }
 
 .rightxyz {
-  background: url(../public/assets/xbox.jpg);
+  background: url(/xbox.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 1s;
@@ -67,7 +67,7 @@
 }
 
 .leftxyz {
-  background: url(../public/assets/ps.jpg);
+  background: url(/ps.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 1s;

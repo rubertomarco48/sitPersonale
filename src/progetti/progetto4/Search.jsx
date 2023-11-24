@@ -25,7 +25,7 @@ export const Search=()=>{
           />
         )}
         <img
-          src="./src/assets/search.png"
+          src="/search.png"
           className={isVisible && "translate-x-1"}
           alt=""
         />

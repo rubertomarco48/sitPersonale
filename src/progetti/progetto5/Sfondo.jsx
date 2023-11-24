@@ -24,7 +24,7 @@ const Sfondo = () => {
         <h1>{counter}%</h1>
       </div>
       
-      <img src="./src/assets/sfondoProgetto5.jpg" className="immaginexyz" style={{filter:`blur(${100 - counter}px)`}} alt="" />
+      <img src="/sfondoProgetto5.jpg" className="immaginexyz" style={{filter:`blur(${100 - counter}px)`}} alt="" />
     </div>
   );
 };
