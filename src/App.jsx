@@ -1,5 +1,6 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
 import Layout from "./Layout";
+import Contatti from "./Contatti";
 /* import Home from "./Home"; */
 import Progetti from "./Progetti";
 import { PhotoContainer } from "./progetti/progetto1/PhotosContainer";
@@ -20,7 +21,7 @@ import HomePiuContatti from "./HomePiuContatti";
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
+      <Routes>      
         <Route path="/" element={<Layout/>}>
           <Route index element={<HomePiuContatti/>} />
           <Route path="progetti" element={<Progetti/>}/>
@@ -38,6 +39,10 @@ function App() {
           
         </Route>
       </Routes>
+      <footer className="w-full flex flex-col justify-center bg-green-600 p-8">
+      <Link to="/progetti" className="z-50 bg-black rounded-xl mx-auto w-5/6"><h1 id="voci" className="w-full text-4xl text-center p-12 text-white">Guarda tutti i progetti</h1></Link>
+      <Contatti/>
+      </footer>
     </BrowserRouter>
   );
 }

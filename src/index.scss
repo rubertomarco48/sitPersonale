@@ -8,9 +8,7 @@
     box-sizing: border-box;
     overflow-x:hidden ;    
 }
-#root{
-    height: 172vh;
-}
+
 
 #menuBottone{
     position: relative;
@@ -31,12 +29,12 @@
 }
 
 .sfondoLogo{
-  
-background: rgba(0, 0, 0, 1.0);
-background: radial-gradient(at center, rgba(0, 0, 0, 1.0), rgba(1, 1, 1, 0));
+position: sticky;
+top: 0;  
+
 }
 .sfondo{
-    background-image: url("./src/assets/sfondo.jpg");
+    background-image: url("/sfondo.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -66,7 +64,13 @@ background: radial-gradient(at center, rgba(0, 0, 0, 1.0), rgba(1, 1, 1, 0));
 .open{
     right:1.3rem
 }
-
+.pixel{
+    font-family: 'Pixelify Sans', sans-serif;
+    cursor: pointer;
+    &:hover{
+        color: yellow;
+    }
+}
 #voci{
     font-family: 'Pixelify Sans', sans-serif;
     transition: all 1s;
@@ -83,9 +87,7 @@ background: radial-gradient(at center, rgba(0, 0, 0, 1.0), rgba(1, 1, 1, 0));
     
     
 }
-.pres{
-    font-family: 'Pixelify Sans', sans-serif;
-    
+.pres{    
     height:fit-content;
 }
 .gradTesto{
@@ -110,4 +112,8 @@ background: radial-gradient(at center, rgba(0, 0, 0, 1.0), rgba(1, 1, 1, 0));
 }
 .suOggetto{
     transition: all 0.5s;
+}
+.barra{
+    position: sticky;
+    top: 0;
 }

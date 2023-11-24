@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Outlet,Link } from "react-router-dom";
 
 function Layout() {
@@ -6,6 +6,7 @@ function Layout() {
   const [stileTesto, setStileTesto] = useState("font-bold open");
   const [testo, setTesto] = useState("MENU");
   const [open, setOpen] = useState(false);
+
   const close = () => {
     if (show === " w-60 z-40 menuContainer bg-green-700 showMenu") {
       setShow(" w-60 z-40 menuContainer bg-green-700");
@@ -29,18 +30,22 @@ function Layout() {
     }
   };
   return (
-    <div className="flex flex-col justify-center w-screen">
-      <img
-        className=" z-0 absolute w-screen video"
+    <div id="boh" className="flex flex-col items-center w-full bg-green-600 ">
+      {/* <img
+        id="sfondoPrincipale"
+        className="z-0 absolute h-full w-full video object-cover"
         src="/videoSfondo.jpg"
-      />
-      <picture className="flex z-30 justify-center sfondoLogo items-center w-full h-48 m-4 rounded-2xl">
+      /> */}
+      {/* <picture className="flex z-30 justify-center sfondoLogo items-center w-full h-48  rounded-2xl">
       <Link to="/"><img src="/logo.gif" className="h-28  w-48" alt="bho" /></Link>
-      </picture>
+      </picture> */}
+      <div className=" bg-black flex justify-center barra w-full h-12 text-white">
+        <h1 className="pixel text-xl flex items-center"><Link to="/">Marco Ruberto</Link></h1>
+      </div>
       
       <div
         onClick={handleShow}
-        className="z-50 absolute menuSfera bg-green-700 w-36 h-36  rounded-full text-right "
+        className="z-50 absolute menuSfera bg-green-700 w-36 h-36   rounded-full text-right "
       >
         <h1 id="menuBottone" className={stileTesto}>
           {testo}
@@ -84,10 +89,9 @@ function Layout() {
         </div>
       </div>
 
-      <div id="container">
+      <div id="container" className="mt-12">
         <Outlet />
       </div>
-      <Link to="/progetti" className="z-50 bg-black rounded-xl mx-auto w-5/6"><h1 id="voci" className="w-full text-4xl text-center p-12 text-white">Guarda tutti i progetti</h1></Link>
     </div>
   );
 }
