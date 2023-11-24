@@ -35,7 +35,7 @@ function Layout() {
         src="./src/assets/videoSfondo.jpg"
       />
       <picture className="flex z-30 justify-center sfondoLogo items-center w-full h-48 m-4 rounded-2xl">
-      <Link to="/"><img src="./src/assets/logo.gif" className="h-28 w-48" alt="bho" /></Link>
+      <Link to="/"><img src="./src/assets/logo.gif" className="h-28  w-48" alt="bho" /></Link>
       </picture>
       
       <div
