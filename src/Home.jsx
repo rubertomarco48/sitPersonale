@@ -1,6 +1,6 @@
 function Home() {
     return (
-        <div  className="w-2/3 flex flex-col h-full 2xl:gap-8 xl:text-base p-20 gradTesto">
+        <div id="decrizioneContainer"  className="w-2/3 flex flex-col h-full 2xl:gap-8 xl:text-base p-20 gradTesto">
         <p className="text-center w-full pres text-white 2xl:text-xl z-50 xl:text-base">
             Sono un ragazzo che ha coltivato il sogno di trasformare la sua passione per l'informatica in una carriera concreta, e finalmente questo sogno è diventato realtà.</p>
         <p className="text-center w-full pres text-white 2xl:text-xl z-50 xl:text-base">Mi definisco un Full-Stack Developer intraprendente, ambizioso e incredibilmente orientato alla collaborazione.</p>

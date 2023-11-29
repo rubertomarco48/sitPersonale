@@ -62,7 +62,7 @@ const Form=()=>{
     
 
     return(
-      <form action="" id="formxyz" className="flex flex-col gap-8 w-1/3 items-center bg-cyan-700 rounded-xl opacity-80">
+      <form action="" id="formxyz" className="flex flex-col gap-8 w-1/3 items-center bg-cyan-700 rounded-xl relative opacity-80">
         <h1 className=" p-4 text-center w-full text-4xl text-gray-200 font">Please Login</h1>
         <label htmlFor="email"  className="label1">{labelEmail}</label>
         <input type="text"  name="email" className=" w-4/5 bg-cyan-700 bordoSotto" placeholder={email} onFocus={handleFocusEmail} onBlur={handleBlurEmail}/>

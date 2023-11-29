@@ -128,4 +128,52 @@
 .barra {
   position: sticky;
   top: 0;
+}
+
+@media only screen and (max-width: 1199px) {
+  #hiddenMenu {
+    display: none;
+  }
+  #menu {
+    display: none;
+  }
+  #containerBottone {
+    display: none;
+  }
+  #decrizioneContainer {
+    width: 100%;
+    padding: 10px;
+  }
+  #vociMobile {
+    display: block;
+    font-family: "Pixelify Sans", sans-serif;
+    transition: all 1s;
+    cursor: pointer;
+  }
+  #vociMobile:hover {
+    color: yellow;
+  }
+  #mobileTitle {
+    justify-content: space-between;
+  }
+  #footerMobile {
+    padding: 10px;
+    height: auto;
+    gap: 4rem;
+    justify-self: center;
+  }
+  #contattiMobile {
+    flex-direction: column;
+    height: auto;
+    gap: 4rem;
+    padding: 20px;
+    margin: auto;
+  }
+  #container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #prog {
+    min-width: 300px;
+  }
 }/*# sourceMappingURL=index.css.map */

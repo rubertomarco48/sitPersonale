@@ -39,7 +39,7 @@ function App() {
           
         </Route>
       </Routes>
-      <footer className="w-full flex flex-col justify-center bg-green-600 p-8">
+      <footer id="footerMobile" className="w-full flex flex-col justify-center bg-green-600 p-8">
       <Link to="/progetti" className="z-50 bg-black rounded-xl mx-auto w-5/6"><h1 id="voci" className="w-full text-4xl text-center p-12 text-white">Guarda tutti i progetti</h1></Link>
       <Contatti/>
       </footer>

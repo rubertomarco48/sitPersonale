@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Outlet,Link } from "react-router-dom";
 
 function Layout() {
@@ -39,11 +39,24 @@ function Layout() {
       {/* <picture className="flex z-30 justify-center sfondoLogo items-center w-full h-48  rounded-2xl">
       <Link to="/"><img src="/logo.gif" className="h-28  w-48" alt="bho" /></Link>
       </picture> */}
-      <div className=" bg-black flex justify-center barra w-full h-12 text-white">
-        <h1 className="pixel text-xl flex items-center"><Link to="/">Marco Ruberto</Link></h1>
+      <div id="mobileTitle" className=" bg-black flex justify-evenly barra w-full h-12 text-white">
+        <h1  className="pixel text-xl ml-2 flex items-center"><Link to="/">Marco Ruberto</Link></h1>
+        <div className="pixel text-xl flex items-center"><Link to="/progetti"
+          id="vociMobile"
+          className=" hidden text-xl"
+          
+        >
+          Progetti
+        </Link>
+        </div>
+        <div className="pixel text-xl flex items-center">
+          <a target="_blank" rel="noopener noreferrer" id="vociMobile" className="hidden text-xl mr-2" href="https://drive.google.com/drive/folders/1Fg7a4fxJqRPf8VjukPRfgxntctKtdQPP?usp=sharing">Scarica CV</a>
+        </div>
+        
       </div>
       
       <div
+      id="containerBottone"
         onClick={handleShow}
         className="z-50 absolute menuSfera bg-green-700 w-36 h-36   rounded-full text-right "
       >
@@ -52,7 +65,7 @@ function Layout() {
         </h1>
       </div>
       <div id="menu" className={show}></div>
-      <div className="absolute left-4 bottom-32 flex flex-col gap-20">
+      <div id="hiddenMenu" className="absolute left-4 bottom-32 flex flex-col gap-20">
       <Link to="/"
           id="voci"
           style={open ? { display:"block" } : { display:"none" }}
@@ -85,7 +98,7 @@ function Layout() {
               : "text-white font-bold z-50 relative "
           }
         >
-          <a href="https://drive.google.com/drive/folders/1Fg7a4fxJqRPf8VjukPRfgxntctKtdQPP?usp=sharing">Scarica CV</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1Fg7a4fxJqRPf8VjukPRfgxntctKtdQPP?usp=sharing">Scarica CV</a>
         </div>
       </div>
 
