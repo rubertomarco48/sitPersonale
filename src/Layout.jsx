@@ -102,7 +102,7 @@ function Layout() {
         </div>
       </div>
 
-      <div id="container" onClick={close()} className="mt-12">
+      <div id="container" onClick={close} className="mt-12">
         <Outlet />
       </div>
     </div>
