@@ -45,7 +45,7 @@ const CookiePolicy = () => {
         Contattaci 
         Se hai domande o preoccupazioni sulla nostra
         Privacy & Cookie Policy, non esitare a contattarci all&rsquo;indirizzo 
-        <a href="mailto:rubertomarco48@gmail.com" className=" text-red-600 hover:text-violet-600"> rubertomarco48@gmail.com </a>. 
+        <a href="mailto:rubertomarco48@gmail.com?subject=Policy Privacy &body=Vorrei delle informazioni riguardo la vostra politica della privacy" className=" text-red-600 hover:text-violet-600"> rubertomarco48@gmail.com </a>. 
         Grazie per la tua fiducia nel visitare il nostro Sito.
       </p>
     </div>
