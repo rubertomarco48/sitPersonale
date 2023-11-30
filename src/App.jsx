@@ -26,6 +26,7 @@ function App() {
     <BrowserRouter>
       <Routes>      
         <Route path="/" element={<Layout/>}>
+          <Route path="cookie-policy" element={<CookiePolicy/>} />
           <Route index element={<HomePiuContatti/>} />
           <Route path="progetti" element={<Progetti/>}/>
           <Route path="progetto1" element={<PhotoContainer/>} />
@@ -39,7 +40,7 @@ function App() {
           <Route path="progetto9" element={<Progetto9/>} />
           <Route path="progetto10" element={<Progetto10/>} />
           <Route path="progetto11" element={<Progetto11/>} />
-          <Route path="cookie-policy" element={<CookiePolicy/>}/>
+          
         </Route>
         
       </Routes>
