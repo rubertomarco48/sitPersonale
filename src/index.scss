@@ -168,3 +168,28 @@ top: 0;
         
     }
 }
+#cook{
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    background-color: #16A34A;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding-bottom: 1rem;
+}
+.policy{
+    color: blue;
+    &:hover{
+        color: purple;
+    }
+}
+.bottoneCookie{
+    transition: all 0.5s;
+    &:hover{
+    transform: scale(1.1);
+    background-color:#ffffff;
+    border: #16A34A solid 1px;
+    color:#16A34A ;
+    }
+}

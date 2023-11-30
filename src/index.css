@@ -176,4 +176,31 @@
   #prog {
     min-width: 300px;
   }
+}
+#cook {
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  background-color: #16A34A;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  padding-bottom: 1rem;
+}
+
+.policy {
+  color: blue;
+}
+.policy:hover {
+  color: purple;
+}
+
+.bottoneCookie {
+  transition: all 0.5s;
+}
+.bottoneCookie:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
+  border: #16A34A solid 1px;
+  color: #16A34A;
 }/*# sourceMappingURL=index.css.map */

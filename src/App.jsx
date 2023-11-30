@@ -16,6 +16,9 @@ import Progetto10 from "./progetti/progetto10/Progetto10";
 import Progetto11 from "./progetti/progetto11/Progetto11";
 /* import Contatti from "./Contatti"; */
 import HomePiuContatti from "./HomePiuContatti";
+import CookieBanner from "./Cookie";
+import CookiePolicy from "./CookiePolicy";
+
 
 
 function App() {
@@ -36,13 +39,15 @@ function App() {
           <Route path="progetto9" element={<Progetto9/>} />
           <Route path="progetto10" element={<Progetto10/>} />
           <Route path="progetto11" element={<Progetto11/>} />
-          
+          <Route path="cookie-policy" element={<CookiePolicy/>}/>
         </Route>
+        
       </Routes>
       <footer id="footerMobile" className="w-full flex flex-col justify-center bg-green-600 p-8">
       <Link to="/progetti" className="z-50 bg-black rounded-xl mx-auto w-5/6"><h1 id="voci" className="w-full text-4xl text-center p-12 text-white">Guarda tutti i progetti</h1></Link>
       <Contatti/>
       </footer>
+      <CookieBanner/>
     </BrowserRouter>
   );
 }
