@@ -176,6 +176,9 @@
   #prog {
     min-width: 300px;
   }
+  .bottoneCookie {
+    font-size: small;
+  }
 }
 #cook {
   width: 100%;
