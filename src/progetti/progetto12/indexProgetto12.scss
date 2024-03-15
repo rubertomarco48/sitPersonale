@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#anima{
+    transition: all 1s;
+    
+}
+.trasf{
+    transform: rotate(180deg);
+}
+
+#vis{
+    visibility: visible;
+}
+#hid{
+    visibility: hidden;
+}
+
+.sf{
+    background-color: green;
+}
+.sfond{
+    transition: all 1s;
+    background-image: url("/sfondo.jpg");
+    background-origin:content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:scale(1.1);
+    box-shadow: 5px 5px 10px 2px #333333;
+}
