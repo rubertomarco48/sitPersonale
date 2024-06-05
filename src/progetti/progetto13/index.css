@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#progetto13 {
+  background-color: #13a2db;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+#progetto13 h1 {
+  font-weight: bold;
+  font-size: x-large;
+}
+#progetto13 #scelte {
+  height: 20vh;
+  width: 30vw;
+  border-radius: 1rem;
+  border: 1px solid #000;
+  padding: 1rem;
+}
+#progetto13 #scelte-singole {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+#progetto13 #scelte-singole h2 {
+  font-size: x-large;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+@keyframes backgroundChange {
+  0% {
+    background-color: #ffcccc;
+  }
+  25% {
+    background-color: #ccffcc;
+  }
+  50% {
+    background-color: #ccccff;
+  }
+  75% {
+    background-color: #ffffcc;
+  }
+  100% {
+    background-color: #ffcccc;
+  }
+}
+.background-animation {
+  animation: backgroundChange 0.5s infinite;
+}
+
+.highlight {
+  background-color: green;
+  color: white;
+}
+
+.ciao {
+  background-color: #de6406;
+}/*# sourceMappingURL=index.css.map */

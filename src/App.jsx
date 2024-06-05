@@ -15,6 +15,7 @@ import Progetto9 from "./progetti/progetto9/Progetto9";
 import Progetto10 from "./progetti/progetto10/Progetto10";
 import Progetto11 from "./progetti/progetto11/Progetto11";
 import Progetto12 from "./progetti/progetto12/Progetto12";
+import Progetto13 from "./progetti/progetto13/Progetto13"
 /* import Contatti from "./Contatti"; */
 import HomePiuContatti from "./HomePiuContatti";
 import CookieBanner from "./Cookie";
@@ -43,6 +44,7 @@ function App() {
           <Route path="progetto10" element={<Progetto10/>} />
           <Route path="progetto11" element={<Progetto11/>} />
           <Route path="progetto12" element={<Progetto12/>} />
+          <Route path="progetto13" element={<Progetto13/>} />
           
         </Route>
         
