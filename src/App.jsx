@@ -20,6 +20,7 @@ import Progetto13 from "./progetti/progetto13/Progetto13"
 import HomePiuContatti from "./HomePiuContatti";
 import CookieBanner from "./Cookie";
 import CookiePolicy from "./CookiePolicy";
+import Progetto14 from "./progetti/Progetto14/Progetto14";
 
 
 
@@ -45,6 +46,7 @@ function App() {
           <Route path="progetto11" element={<Progetto11/>} />
           <Route path="progetto12" element={<Progetto12/>} />
           <Route path="progetto13" element={<Progetto13/>} />
+          <Route path="progetto14" element={<Progetto14/>} />
           
         </Route>
         
