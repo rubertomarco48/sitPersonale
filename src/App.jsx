@@ -21,6 +21,7 @@ import HomePiuContatti from "./HomePiuContatti";
 import CookieBanner from "./Cookie";
 import CookiePolicy from "./CookiePolicy";
 import Progetto14 from "./progetti/Progetto14/Progetto14";
+import Progetto15 from "./progetti/Progetto15/Progetto15";
 
 
 
@@ -47,6 +48,7 @@ function App() {
           <Route path="progetto12" element={<Progetto12/>} />
           <Route path="progetto13" element={<Progetto13/>} />
           <Route path="progetto14" element={<Progetto14/>} />
+          <Route path="progetto15" element={<Progetto15/>} />
           
         </Route>
         
