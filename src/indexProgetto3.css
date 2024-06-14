@@ -4,6 +4,12 @@
   margin: 0;
   padding: 0;
 } */
+#prog3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #HomepageProgetto3 {
   position: relative;
   z-index: 100;
@@ -23,12 +29,15 @@
   margin: 16px 0;
 }
 
+#HomepageProgetto3 {
+  width: 60%;
+}
 #HomepageProgetto3 #menup {
   width: 50px;
   height: 50px;
   position: relative;
-  top: 30%;
-  left: 60%;
+  top: 0;
+  left: 1rem;
   z-index: 20;
   fill: #fafafa;
 }
@@ -45,14 +54,13 @@
   max-width: 100%;
   border-radius: 1rem;
   margin: 16px 0;
-  position: absolute;
   z-index: 15;
 }
 #HomepageProgetto3 #content {
   background-color: #fafafa;
   transform-origin: top left;
   transition: all linear 0.5s;
-  width: 100vw;
+  width: 100%;
   z-index: 50;
   min-height: 100vh;
   padding: 50px;
@@ -71,17 +79,19 @@
 }
 
 #HomepageProgetto3 button {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 0 0 100px 0;
   background-color: yellow;
   position: absolute;
-  top: -100px;
-  left: -100px;
-  z-index: 10;
+  top: 0;
+  left: 0;
+  z-index: 50;
 }
 #HomepageProgetto3 .buttonRotate {
-  rotate: -100deg;
+  rotate: -20deg;
+  transition: all linear 0.5s;
+  transform-origin: left top;
 }
 
 #van {

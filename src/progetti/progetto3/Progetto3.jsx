@@ -6,7 +6,7 @@ import '../../indexProgetto3.css'
 function Progetto3() {
 
   return (
-    <div>
+    <div id="prog3">
       <Homepage/>
       
     </div>

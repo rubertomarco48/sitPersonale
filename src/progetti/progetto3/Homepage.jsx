@@ -57,8 +57,8 @@ const Homepage = () => {
         
       </div>
       <button className={stileBottone} onClick={handleRotate}>
-        <img src="/menu.svg" id="menup" alt="" />
-        <img src="/close.svg" id="close"/>
+        <img src={stile==="noRotate"?"/menu.svg":"/close.svg"} id="menup" alt="" />
+       {/*  <img src="/close.svg" id="close"/> */}
       </button>
       <Navbar/>
     </div>
