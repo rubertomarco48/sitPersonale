@@ -47,7 +47,7 @@ const Homepage = () => {
           in eligendi quam nisi nemo!
         </p>
         <h2><strong>My Dog</strong></h2>
-        <img src="/image.avif" className="cane" alt="" />
+        <img src="/cane.jpg" className="cane" alt="" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
           voluptatibus? Provident quidem doloribus dolore delectus omnis
