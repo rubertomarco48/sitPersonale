@@ -47,6 +47,9 @@ const Progetti=()=>{
             <Link id="prog"to="/progetto15" className=" w-1/5 flex justify-center items-center rounded-xl border-4 border-slate-50 zoom">
             <video autoPlay loop muted controls="" src="/day15.mp4"></video>
             </Link>
+            <Link id="prog"to="/progetto16" className=" w-1/5 flex justify-center items-center rounded-xl border-4 border-slate-50 zoom">
+            <video autoPlay loop muted controls="" src="/day16.mp4"></video>
+            </Link>
         </div>
     )
 }

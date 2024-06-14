@@ -22,6 +22,7 @@ import CookieBanner from "./Cookie";
 import CookiePolicy from "./CookiePolicy";
 import Progetto14 from "./progetti/Progetto14/Progetto14";
 import Progetto15 from "./progetti/Progetto15/Progetto15";
+import Progetto16 from "./progetti/Progetto16/Progetto16";
 
 
 
@@ -49,6 +50,7 @@ function App() {
           <Route path="progetto13" element={<Progetto13/>} />
           <Route path="progetto14" element={<Progetto14/>} />
           <Route path="progetto15" element={<Progetto15/>} />
+          <Route path="progetto16" element={<Progetto16/>} />
           
         </Route>
         
@@ -56,8 +58,9 @@ function App() {
       <footer id="footerMobile" className="w-full flex flex-col justify-center bg-green-600 p-8">
       <Link to="/progetti" className="z-50 bg-black rounded-xl mx-auto w-5/6"><h1 id="voci" className="w-full text-4xl text-center p-12 text-white">Guarda tutti i progetti</h1></Link>
       <Contatti/>
-      </footer>
       <CookieBanner/>
+      </footer>
+      
     </BrowserRouter>
   );
 }

@@ -65,14 +65,14 @@ function Layout() {
         </h1>
       </div>
       <div id="menu" className={show}></div>
-      <div id="hiddenMenu" className="absolute left-4 bottom-32 flex flex-col gap-20">
+      <div id="hiddenMenu" className=" fixed z-40 left-4 bottom-32 flex flex-col gap-20">
       <Link to="/"
           id="voci"
           style={open ? { display:"block" } : { display:"none" }}
           className={
             open
-              ? "text-white font-bold z-50 relative "
-              : "text-white font-bold z-50 relative "
+              ? "text-white font-bold  relative "
+              : "text-white font-bold  relative "
           }
         >
           Home
@@ -82,8 +82,8 @@ function Layout() {
           style={open ? { display:"block" } : { display:"none" }}
           className={
             open
-              ? "text-white font-bold z-50 relative "
-              : "text-white font-bold z-50 relative "
+              ? "text-white font-bold  relative "
+              : "text-white font-bold  relative "
           }
         >
           Progetti
@@ -94,8 +94,8 @@ function Layout() {
           style={open ? { display:"block" } : { display:"none" }}
           className={
             open
-              ? " text-white font-bold z-50 relative "
-              : "text-white font-bold z-50 relative "
+              ? " text-white font-bold relative "
+              : "text-white font-bold relative "
           }
         >
           <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1Fg7a4fxJqRPf8VjukPRfgxntctKtdQPP?usp=sharing">Scarica CV</a>

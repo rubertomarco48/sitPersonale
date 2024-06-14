@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#progetto16 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #3494E4;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+#nav16 {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  flex-direction: column;
+}
+#nav16 h1, #nav16 h2 {
+  text-align: center;
+}
+#nav16 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+#nav16 h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+#frameLiquido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0 0 1rem 1rem;
+  border: 3px black solid;
+}
+#frameLiquido #contenitore16 {
+  width: 100%;
+  background-color: #6AB3F8;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+#containerBicchieri {
+  height: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+#containerBicchieri .bicchiere {
+  width: 15%;
+  height: 30%;
+  border-radius: 0 0 2rem 2rem;
+  border: 3px solid black;
+}
+
+.blue16 {
+  background-color: #6AB3F8;
+}
+
+.trasp16 {
+  background-color: rgba(255, 255, 255, 0.801);
+}
+
+#bianco16 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 10;
+  background-color: rgb(255, 255, 255);
+}
+
+.tondo16 {
+  border-radius: 0 0 1rem 1rem;
+}
+
+.fix16fisso {
+  border-radius: 0 0 1rem 1rem;
+}/*# sourceMappingURL=indexProgetto16.css.map */

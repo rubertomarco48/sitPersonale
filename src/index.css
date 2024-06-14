@@ -4,6 +4,9 @@
 @tailwind utilities;
 * {
   box-sizing: border-box;
+}
+
+body {
   overflow-x: hidden;
 }
 
@@ -15,6 +18,7 @@
 }
 
 .menuSfera {
+  position: fixed;
   top: -4.5rem;
   left: -4.5rem;
 }
@@ -50,6 +54,8 @@
 }
 
 #menu {
+  position: fixed;
+  z-index: 10;
   height: 120%;
   transition: all 1s;
   border-right: 5px solid;
@@ -79,6 +85,7 @@
   font-family: "Pixelify Sans", sans-serif;
   transition: all 1s;
   cursor: pointer;
+  z-index: 100;
 }
 #voci:hover {
   color: yellow;
@@ -88,7 +95,6 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  z-index: 30;
 }
 
 .pres {
@@ -182,9 +188,8 @@
 }
 #cook {
   width: 100%;
-  position: absolute;
-  z-index: 100;
-  background-color: #16A34A;
+  position: fixed;
+  bottom: 0;
   display: flex;
   justify-content: center;
   height: 100px;
